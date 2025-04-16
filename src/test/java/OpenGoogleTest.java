@@ -12,5 +12,7 @@ public class OpenGoogleTest {
         driver.manage().window().maximize();
         driver.get("https://www.google.com");
         driver.findElement(By.name("q")).sendKeys("Great Barrier Reef" + Keys.ENTER);
+
+        // 1) -------------------------------------------------------------------------------------
     }
 }

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OpenChrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/OpenGoogleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count">
+      <change afterPath="$PROJECT_DIR$/src/test/java/LinkExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenGoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenGoogleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -51,6 +56,9 @@
     &quot;Application.OpenChrome.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.LinkExample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LinkExample.linkExampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.OpenGoogleTest.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -64,7 +72,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.OpenGoogleTest">
+  <component name="RunManager" selected="TestNG.LinkExample">
     <configuration name="OpenChrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.OpenChrome" />
       <module name="SeleniumSeries" />
@@ -74,6 +82,29 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkExample.linkExampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkExample" />
+      <option name="METHOD_NAME" value="linkExampleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,6 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LinkExample" />
+        <item itemvalue="TestNG.LinkExample.linkExampleTest" />
         <item itemvalue="TestNG.OpenGoogleTest" />
         <item itemvalue="Application.OpenChrome" />
       </list>
@@ -115,10 +148,30 @@
       <workItem from="1744790215875" duration="40000" />
       <workItem from="1744790289108" duration="469000" />
       <workItem from="1744790799982" duration="177000" />
+      <workItem from="1744790999831" duration="3334000" />
+      <workItem from="1744794697625" duration="1389000" />
+      <workItem from="1744796842318" duration="2903000" />
+      <workItem from="1744799851535" duration="255000" />
+      <workItem from="1744806051954" duration="1575000" />
+      <workItem from="1744811519393" duration="10108000" />
     </task>
+    <task id="LOCAL-00001" summary="OpenChrome Step">
+      <option name="closed" value="true" />
+      <created>1744792375442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744792375442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OpenChrome Step" />
+    <MESSAGE value="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count" />
   </component>
 </project>
