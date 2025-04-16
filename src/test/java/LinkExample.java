@@ -84,7 +84,7 @@ public class LinkExample {
             }
         }
 
-        // 6) -- Count Of Layout Links -------------------------------------------------
+        // 6) -- Count of Layout Links -------------------------------------------------
 
         WebElement layoutElemnt = driver.findElement(By.className("layout-main-content"));
         List<WebElement> countOfLayoutLinks = layoutElemnt.findElements(By.tagName("a"));
