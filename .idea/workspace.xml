@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count">
-      <change afterPath="$PROJECT_DIR$/src/test/java/LinkExample.java" afterDir="false" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Link-Clicking,Broken,all added,find,Duplicates,layout count">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TextBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/OpenGoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenGoogleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,8 @@
     &quot;TestNG.LinkExample.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LinkExample.linkExampleTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.OpenGoogleTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TextBox.TextTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TextBox.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -72,20 +73,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.LinkExample">
-    <configuration name="OpenChrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.OpenChrome" />
-      <module name="SeleniumSeries" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.TextBox.TextTest">
     <configuration name="LinkExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
@@ -120,12 +108,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextBox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TextBox" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextBox.TextTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TextBox" />
+      <option name="METHOD_NAME" value="TextTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TextBox.TextTest" />
+        <item itemvalue="TestNG.TextBox" />
         <item itemvalue="TestNG.LinkExample" />
         <item itemvalue="TestNG.LinkExample.linkExampleTest" />
         <item itemvalue="TestNG.OpenGoogleTest" />
-        <item itemvalue="Application.OpenChrome" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +165,11 @@
       <workItem from="1744796842318" duration="2903000" />
       <workItem from="1744799851535" duration="255000" />
       <workItem from="1744806051954" duration="1575000" />
-      <workItem from="1744811519393" duration="10108000" />
+      <workItem from="1744811519393" duration="11969000" />
+      <workItem from="1744881158134" duration="2271000" />
+      <workItem from="1744883494377" duration="2619000" />
+      <workItem from="1744890891935" duration="2126000" />
+      <workItem from="1744894535246" duration="9415000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -163,7 +179,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744792375442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count">
+      <option name="closed" value="true" />
+      <created>1744831847126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744831847126</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Link-Clicking,Broken,all added,find,Duplicates,layout count">
+      <option name="closed" value="true" />
+      <created>1744831941416</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744831941416</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +204,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="OpenChrome Step" />
     <MESSAGE value="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count" />
+    <MESSAGE value="Link-Clicking,Broken,all added,find,Duplicates,layout count" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link-Clicking,Broken,all added,find,Duplicates,layout count" />
   </component>
 </project>
