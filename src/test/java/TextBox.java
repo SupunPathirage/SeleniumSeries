@@ -38,7 +38,6 @@ public class TextBox {
         System.out.println(storeValue);
 
         // Type and moved to next element.
-
         WebElement  enterThis = driver.findElement(By.id("j_idt88:j_idt99"));
         enterThis.sendKeys("SupunPathirage96@gmail.com");
         Thread.sleep(3000);
