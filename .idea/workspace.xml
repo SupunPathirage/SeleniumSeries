@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="TextBox Complete">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ButtonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Button Test try" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,11 +74,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.ButtonTest">
+  <component name="RunManager" selected="TestNG.DropDownTest">
     <configuration name="ButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ButtonTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DropDownTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -122,25 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextBox.TextTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumSeries" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TextBox" />
-      <option name="METHOD_NAME" value="TextTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DropDownTest" />
         <item itemvalue="TestNG.ButtonTest" />
         <item itemvalue="TestNG.TextBox" />
         <item itemvalue="TestNG.OpenGoogleTest" />
         <item itemvalue="TestNG.LinkExample" />
-        <item itemvalue="TestNG.TextBox.TextTest" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +174,7 @@
       <workItem from="1745480423552" duration="589000" />
       <workItem from="1746234369021" duration="20813000" />
       <workItem from="1746257877984" duration="474000" />
-      <workItem from="1746258377942" duration="6574000" />
+      <workItem from="1746258377942" duration="6878000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -228,7 +224,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746254146286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Button Test try">
+      <option name="closed" value="true" />
+      <created>1746265371305</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746265371305</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Button Test try">
+      <option name="closed" value="true" />
+      <created>1746265381679</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746265381679</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +252,7 @@
     <MESSAGE value="Link-Clicking,Broken,all added,find,Duplicates,layout count" />
     <MESSAGE value="Working with TextBox" />
     <MESSAGE value="TextBox Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="TextBox Complete" />
+    <MESSAGE value="Button Test try" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button Test try" />
   </component>
 </project>
