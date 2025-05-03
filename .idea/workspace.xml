@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Link-Clicking,Broken,all added,find,Duplicates,layout count">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TextBox.java" afterDir="false" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Working with TextBox">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LinkExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LinkExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TextBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +42,13 @@
     &quot;accountId&quot;: &quot;ed3d6c3b-b2a1-4368-8f7b-1f58be78b1d7&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/4.31.0/selenium-api-4.31.0.jar!/org/openqa/selenium/WebDriver.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2vnoTwrV8PZjiKpD0GXbxyh1Gmg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,6 +65,7 @@
     &quot;TestNG.TextBox.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/React&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -73,7 +77,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TextBox.TextTest">
+  <component name="RunManager" selected="TestNG.TextBox">
     <configuration name="LinkExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
@@ -133,19 +137,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TextBox.TextTest" />
         <item itemvalue="TestNG.TextBox" />
-        <item itemvalue="TestNG.LinkExample" />
-        <item itemvalue="TestNG.LinkExample.linkExampleTest" />
         <item itemvalue="TestNG.OpenGoogleTest" />
+        <item itemvalue="TestNG.LinkExample" />
+        <item itemvalue="TestNG.TextBox.TextTest" />
+        <item itemvalue="TestNG.LinkExample.linkExampleTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
       </set>
     </attachedChunks>
   </component>
@@ -169,7 +173,11 @@
       <workItem from="1744881158134" duration="2271000" />
       <workItem from="1744883494377" duration="2619000" />
       <workItem from="1744890891935" duration="2126000" />
-      <workItem from="1744894535246" duration="9415000" />
+      <workItem from="1744894535246" duration="10694000" />
+      <workItem from="1745121441756" duration="18931000" />
+      <workItem from="1745212136348" duration="652000" />
+      <workItem from="1745480423552" duration="589000" />
+      <workItem from="1746234369021" duration="17148000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -195,7 +203,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744831941416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Working with TextBox">
+      <option name="closed" value="true" />
+      <created>1744912578658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744912578658</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Working with TextBox">
+      <option name="closed" value="true" />
+      <created>1744912680361</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744912680361</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +229,7 @@
     <MESSAGE value="OpenChrome Step" />
     <MESSAGE value="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count" />
     <MESSAGE value="Link-Clicking,Broken,all added,find,Duplicates,layout count" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link-Clicking,Broken,all added,find,Duplicates,layout count" />
+    <MESSAGE value="Working with TextBox" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with TextBox" />
   </component>
 </project>

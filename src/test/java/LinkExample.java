@@ -30,7 +30,7 @@ public class LinkExample {
         goToDashBoard.click();
         driver.navigate().back();
 
-        // 2  Get the Link to our Terminal without Clicking
+        // 2 Get the Link to our Terminal without Clicking
         WebElement WhereToGo =  driver.findElement(By.partialLinkText("Find the URL"));
         String  path = WhereToGo.getAttribute("href");
         System.out.println("we got the link  here : " + path );
@@ -50,7 +50,7 @@ public class LinkExample {
          // get the result that what is the link broken or real?
 
 
-        //  4 How Many Links are there in this page
+        //  4 How Many Links are there on this page
         List<WebElement> countfullpageLinks =  driver.findElements(By.tagName("a"));
         int pageLinkCount = countfullpageLinks.size();
         System.out.println("Count of full page links : " + pageLinkCount);
