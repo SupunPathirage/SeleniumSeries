@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Working with TextBox">
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="TextBox Complete">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ButtonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LinkExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LinkExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TextBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TextBox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,7 @@
     &quot;Application.OpenChrome.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.ButtonTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LinkExample.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LinkExample.linkExampleTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.OpenGoogleTest.executor&quot;: &quot;Run&quot;,
@@ -77,11 +77,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TextBox">
-    <configuration name="LinkExample" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ButtonTest">
+    <configuration name="ButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkExample" />
+      <option name="MAIN_CLASS_NAME" value="ButtonTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -89,12 +89,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkExample.linkExampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LinkExample" />
-      <option name="METHOD_NAME" value="linkExampleTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ButtonTest" />
         <item itemvalue="TestNG.TextBox" />
         <item itemvalue="TestNG.OpenGoogleTest" />
         <item itemvalue="TestNG.LinkExample" />
         <item itemvalue="TestNG.TextBox.TextTest" />
-        <item itemvalue="TestNG.LinkExample.linkExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +176,9 @@
       <workItem from="1745121441756" duration="18931000" />
       <workItem from="1745212136348" duration="652000" />
       <workItem from="1745480423552" duration="589000" />
-      <workItem from="1746234369021" duration="17148000" />
+      <workItem from="1746234369021" duration="20813000" />
+      <workItem from="1746257877984" duration="474000" />
+      <workItem from="1746258377942" duration="6574000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -219,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744912680361</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TextBox Complete">
+      <option name="closed" value="true" />
+      <created>1746254146286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746254146286</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +239,7 @@
     <MESSAGE value="Link-Handling(Click,!Clicking,Broken,all added,find,Duplicates,layout count" />
     <MESSAGE value="Link-Clicking,Broken,all added,find,Duplicates,layout count" />
     <MESSAGE value="Working with TextBox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working with TextBox" />
+    <MESSAGE value="TextBox Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="TextBox Complete" />
   </component>
 </project>
