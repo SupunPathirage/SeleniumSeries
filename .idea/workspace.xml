@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="CheckBox &amp; Radio Button Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/WaitTest.java" afterDir="false" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Wait Test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/DownloadUploadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,14 +55,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.OpenChrome.executor": "Run",
+    "Application.TableSearchTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "TestNG.ButtonTest.executor": "Run",
     "TestNG.CheckBoxTest.executor": "Run",
+    "TestNG.DownloadUploadTest.anyFileUploardTest.executor": "Run",
+    "TestNG.DownloadUploadTest.executor": "Run",
+    "TestNG.DownloadUploadTest.fileUploadTest.executor": "Run",
     "TestNG.DropDownTest.executor": "Run",
     "TestNG.LinkExample.executor": "Run",
     "TestNG.LinkExample.linkExampleTest.executor": "Run",
     "TestNG.OpenGoogleTest.executor": "Run",
+    "TestNG.TableSearchTest.executor": "Run",
     "TestNG.TextBox.TextTest.executor": "Run",
     "TestNG.TextBox.executor": "Run",
     "TestNG.WaitTest.executor": "Run",
@@ -80,11 +85,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.WaitTest">
-    <configuration name="CheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DownloadUploadTest">
+    <configuration name="TableSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TableSearchTest" />
+      <module name="SeleniumSeries" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DownloadUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CheckBoxTest" />
+      <option name="MAIN_CLASS_NAME" value="DownloadUploadTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -92,43 +104,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DownloadUploadTest.anyFileUploardTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DropDownTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="DownloadUploadTest" />
+      <option name="METHOD_NAME" value="anyFileUploardTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkExample" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DownloadUploadTest.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="DownloadUploadTest" />
+      <option name="METHOD_NAME" value="fileUploadTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextBox" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TableSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TextBox" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumSeries" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WaitTest" />
+      <option name="MAIN_CLASS_NAME" value="TableSearchTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.WaitTest" />
-        <item itemvalue="TestNG.TextBox" />
-        <item itemvalue="TestNG.LinkExample" />
-        <item itemvalue="TestNG.DropDownTest" />
-        <item itemvalue="TestNG.CheckBoxTest" />
+        <item itemvalue="TestNG.DownloadUploadTest" />
+        <item itemvalue="TestNG.DownloadUploadTest.anyFileUploardTest" />
+        <item itemvalue="TestNG.DownloadUploadTest.fileUploadTest" />
+        <item itemvalue="Application.TableSearchTest" />
+        <item itemvalue="TestNG.TableSearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +190,8 @@
       <workItem from="1746310040036" duration="92000" />
       <workItem from="1746310162473" duration="3718000" />
       <workItem from="1746328054626" duration="7660000" />
-      <workItem from="1746335914982" duration="2355000" />
+      <workItem from="1746335914982" duration="6589000" />
+      <workItem from="1746346809614" duration="2103000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -269,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746335986523</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Wait Test">
+      <option name="closed" value="true" />
+      <created>1746338539944</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746338539944</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +296,7 @@
     <MESSAGE value="Button Test try" />
     <MESSAGE value="DropDown Test try" />
     <MESSAGE value="CheckBox &amp; Radio Button Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="CheckBox &amp; Radio Button Test" />
+    <MESSAGE value="Wait Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wait Test" />
   </component>
 </project>
