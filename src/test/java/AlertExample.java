@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -55,6 +56,14 @@ public class AlertExample {
         alertBox4.click();
 
         }
+
+    @AfterMethod
+    public void closeBrowser() throws InterruptedException {
+        if (driver != null)
+            Thread.sleep(3000);{
+            driver.quit();  // ✅ Closes all browser windows and ends the session
+        }
+    }
 
     }
 

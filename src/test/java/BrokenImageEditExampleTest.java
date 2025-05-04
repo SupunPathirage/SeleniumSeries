@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -26,9 +27,7 @@ public class BrokenImageEditExampleTest {
     @Test
     public void brokenImageTests(){
         driver.get("https://the-internet.herokuapp.com/broken_images");
-
         List<WebElement> images = driver.findElements(By.xpath("//div[@class='example']/img"));
-
         // naturalwith  = 0 --  broken image ekka hangichcha value eka .
 
         int i = 1;
@@ -40,16 +39,27 @@ public class BrokenImageEditExampleTest {
             }
             i++;
         }
+
     }
 
+
+
     @Test
-    public void findBrokenImageTestekakvitrak(){
+    public void findBrokenImageTestekakvitrak() throws InterruptedException {
         driver.get("https://demoqa.com/broken");
         WebElement brokenImage = driver.findElement(By.xpath("//*[text()='Valid image']/parent::div/img[2]"));
+        Thread.sleep(3000);
         if (brokenImage.getAttribute("naturalWidth").equals("0")){
             System.out.println("image is broken");
         } else {
             System.out.println("image not broken");
+        }
+    }
+    @AfterMethod
+    public void closeBrowser() throws InterruptedException {
+        if (driver != null) {
+            Thread.sleep(3000);
+            driver.quit();  // ✅ Closes all browser windows and ends the session
         }
     }
 }

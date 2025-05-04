@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -61,5 +62,12 @@ public class ActionKeyBoardOperationExampleTest {
                 .click(selectable.get(2)).perform();
 
 
+    }
+    @AfterMethod
+    public void closeBrowser() throws InterruptedException {
+        if (driver != null) {
+            Thread.sleep(3000);
+            driver.quit();  // ✅ Closes all browser windows and ends the session
+        }
     }
 }

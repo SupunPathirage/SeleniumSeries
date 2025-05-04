@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -90,5 +91,12 @@ public class LinkExample {
         List<WebElement> countOfLayoutLinks = layoutElemnt.findElements(By.tagName("a"));
         System.out.println("Count of layout links : " + countOfLayoutLinks.size());
 
+    }
+    @AfterMethod
+    public void closeBrowser() throws InterruptedException {
+        if (driver != null) {
+            Thread.sleep(3000); // 🕒 Waits for 3 seconds before closing the browser
+            driver.quit();      // ✅ Closes all browser windows and ends the session
+        }
     }
 }

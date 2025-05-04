@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
 
 import java.time.Duration;
 import java.util.List;
@@ -33,7 +34,9 @@ public class FrameTest {
         // 4. Switch back to main content (if you need to interact outside the iframe again)
         driver.switchTo().defaultContent();
 
-        // Close browser
         driver.quit();
+
     }
+
+
 }

@@ -3,6 +3,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -85,4 +86,12 @@ public void clickButtonTest() throws InterruptedException {
     List<WebElement> roundedButtons = driver.findElements(By.cssSelector("button[class*='rounded']"));
     System.out.println("Number of rounded buttons: " + roundedButtons.size());
     }
+    @AfterMethod
+    public void closeBrowser() throws InterruptedException {
+        if (driver != null) {
+            Thread.sleep(3000); // 🕒 Waits for 3 seconds before closing the browser
+            driver.quit();      // ✅ Closes all browser windows and ends the session
+        }
+    }
+
 }
