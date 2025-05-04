@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Mouse Event &amp; KeyBoard Event Testing" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Broken Image Test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +59,7 @@
     &quot;TestNG.ActionKeyBoardOperationExampleTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AlertExample.alertTests.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AlertExample.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BrokenImageEditExampleTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ButtonTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.CheckBoxTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.DownloadUploadTest.anyFileUploardTest.executor&quot;: &quot;Run&quot;,
@@ -90,14 +91,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.BrokenImageEditExampleTest">
-    <configuration name="FrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FrameTest" />
-      <module name="SeleniumSeries" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.JavaScriptExcutorExampleTest">
     <configuration name="ActionKeyBoardOperationExampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
@@ -113,6 +107,17 @@
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BrokenImageEditExampleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaScriptExcutorExampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JavaScriptExcutorExampleTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -150,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JavaScriptExcutorExampleTest" />
         <item itemvalue="TestNG.BrokenImageEditExampleTest" />
         <item itemvalue="TestNG.ActionKeyBoardOperationExampleTest" />
         <item itemvalue="TestNG.WebTableTest" />
         <item itemvalue="TestNG.WindowsTest" />
-        <item itemvalue="Application.FrameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +211,7 @@
       <workItem from="1746352422454" duration="247000" />
       <workItem from="1746352898115" duration="147000" />
       <workItem from="1746353079822" duration="110000" />
+      <workItem from="1746353228972" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -327,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746353185018</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Broken Image Test">
+      <option name="closed" value="true" />
+      <created>1746353337281</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746353337281</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +361,7 @@
     <MESSAGE value="Alert &amp; Frame Test" />
     <MESSAGE value="New WebTable Testing&amp; Window Test" />
     <MESSAGE value="Mouse Event &amp; KeyBoard Event Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mouse Event &amp; KeyBoard Event Testing" />
+    <MESSAGE value="Broken Image Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Broken Image Test" />
   </component>
 </project>
