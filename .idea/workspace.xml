@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Wait Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/DownloadUploadTest.java" afterDir="false" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Download &amp; Upload Test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/AlertExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,16 +55,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FrameTest.executor": "Run",
     "Application.OpenChrome.executor": "Run",
     "Application.TableSearchTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.AlertExample.alertTests.executor": "Run",
+    "TestNG.AlertExample.executor": "Run",
     "TestNG.ButtonTest.executor": "Run",
     "TestNG.CheckBoxTest.executor": "Run",
     "TestNG.DownloadUploadTest.anyFileUploardTest.executor": "Run",
     "TestNG.DownloadUploadTest.executor": "Run",
     "TestNG.DownloadUploadTest.fileUploadTest.executor": "Run",
     "TestNG.DropDownTest.executor": "Run",
+    "TestNG.FrameTest.atTest.executor": "Run",
+    "TestNG.FrameTest.executor": "Run",
     "TestNG.LinkExample.executor": "Run",
     "TestNG.LinkExample.linkExampleTest.executor": "Run",
     "TestNG.OpenGoogleTest.executor": "Run",
@@ -85,18 +91,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.DownloadUploadTest">
-    <configuration name="TableSearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TableSearchTest" />
+  <component name="RunManager" selected="Application.FrameTest">
+    <configuration name="FrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FrameTest" />
       <module name="SeleniumSeries" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertExample" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DownloadUploadTest" />
+      <option name="MAIN_CLASS_NAME" value="AlertExample" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -104,11 +110,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadUploadTest.anyFileUploardTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertExample.alertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DownloadUploadTest" />
-      <option name="METHOD_NAME" value="anyFileUploardTest" />
+      <option name="MAIN_CLASS_NAME" value="AlertExample" />
+      <option name="METHOD_NAME" value="alertTests" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,23 +122,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownloadUploadTest.fileUploadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FrameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DownloadUploadTest" />
-      <option name="METHOD_NAME" value="fileUploadTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TableSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumSeries" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TableSearchTest" />
+      <option name="MAIN_CLASS_NAME" value="FrameTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrameTest.atTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FrameTest" />
+      <option name="METHOD_NAME" value="atTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DownloadUploadTest" />
-        <item itemvalue="TestNG.DownloadUploadTest.anyFileUploardTest" />
-        <item itemvalue="TestNG.DownloadUploadTest.fileUploadTest" />
-        <item itemvalue="Application.TableSearchTest" />
-        <item itemvalue="TestNG.TableSearchTest" />
+        <item itemvalue="Application.FrameTest" />
+        <item itemvalue="TestNG.FrameTest" />
+        <item itemvalue="TestNG.FrameTest.atTest" />
+        <item itemvalue="TestNG.AlertExample" />
+        <item itemvalue="TestNG.AlertExample.alertTests" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +197,8 @@
       <workItem from="1746310162473" duration="3718000" />
       <workItem from="1746328054626" duration="7660000" />
       <workItem from="1746335914982" duration="6589000" />
-      <workItem from="1746346809614" duration="2103000" />
+      <workItem from="1746346809614" duration="2566000" />
+      <workItem from="1746349425343" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -281,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746338539944</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Download &amp; Upload Test">
+      <option name="closed" value="true" />
+      <created>1746349179586</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746349179586</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +312,7 @@
     <MESSAGE value="DropDown Test try" />
     <MESSAGE value="CheckBox &amp; Radio Button Test" />
     <MESSAGE value="Wait Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wait Test" />
+    <MESSAGE value="Download &amp; Upload Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Download &amp; Upload Test" />
   </component>
 </project>
