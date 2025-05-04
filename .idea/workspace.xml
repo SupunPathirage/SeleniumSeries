@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="DropDown Test try">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CheckBoxTest.java" afterDir="false" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="CheckBox &amp; Radio Button Test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/WaitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DropDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DropDownTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,45 +52,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.OpenChrome.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.ButtonTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CheckBoxTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DropDownTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LinkExample.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LinkExample.linkExampleTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OpenGoogleTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TextBox.TextTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TextBox.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/React&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.OpenChrome.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.ButtonTest.executor": "Run",
+    "TestNG.CheckBoxTest.executor": "Run",
+    "TestNG.DropDownTest.executor": "Run",
+    "TestNG.LinkExample.executor": "Run",
+    "TestNG.LinkExample.linkExampleTest.executor": "Run",
+    "TestNG.OpenGoogleTest.executor": "Run",
+    "TestNG.TextBox.TextTest.executor": "Run",
+    "TestNG.TextBox.executor": "Run",
+    "TestNG.WaitTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/React",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.DropDownTest">
-    <configuration name="ButtonTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumSeries" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ButtonTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="TestNG.WaitTest">
     <configuration name="CheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,6 +103,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkExample" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LinkExample" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
@@ -125,10 +125,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="MAIN_CLASS_NAME" value="WaitTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WaitTest" />
+        <item itemvalue="TestNG.TextBox" />
+        <item itemvalue="TestNG.LinkExample" />
         <item itemvalue="TestNG.DropDownTest" />
         <item itemvalue="TestNG.CheckBoxTest" />
-        <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.ButtonTest" />
-        <item itemvalue="TestNG.TextBox" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +187,7 @@
       <workItem from="1746310040036" duration="92000" />
       <workItem from="1746310162473" duration="3718000" />
       <workItem from="1746328054626" duration="7660000" />
+      <workItem from="1746335914982" duration="2355000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -259,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746266548536</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CheckBox &amp; Radio Button Test">
+      <option name="closed" value="true" />
+      <created>1746335986523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746335986523</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +283,7 @@
     <MESSAGE value="TextBox Complete" />
     <MESSAGE value="Button Test try" />
     <MESSAGE value="DropDown Test try" />
-    <option name="LAST_COMMIT_MESSAGE" value="DropDown Test try" />
+    <MESSAGE value="CheckBox &amp; Radio Button Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="CheckBox &amp; Radio Button Test" />
   </component>
 </project>
