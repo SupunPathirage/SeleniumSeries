@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Alert &amp; Frame Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/WindowsTest.java" afterDir="false" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="New WebTable Testing&amp; Window Test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ActionKeyBoardOperationExampleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,49 +52,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FrameTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OpenChrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TableSearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.AlertExample.alertTests.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AlertExample.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ButtonTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CheckBoxTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DownloadUploadTest.anyFileUploardTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DownloadUploadTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DownloadUploadTest.fileUploadTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.DropDownTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FrameTest.atTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.FrameTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LinkExample.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LinkExample.linkExampleTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.OpenGoogleTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TableSearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TextBox.TextTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TextBox.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WaitTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.WindowsTest.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/React&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FrameTest.executor": "Run",
+    "Application.OpenChrome.executor": "Run",
+    "Application.TableSearchTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.ActionKeyBoardOperationExampleTest.executor": "Run",
+    "TestNG.AlertExample.alertTests.executor": "Run",
+    "TestNG.AlertExample.executor": "Run",
+    "TestNG.ButtonTest.executor": "Run",
+    "TestNG.CheckBoxTest.executor": "Run",
+    "TestNG.DownloadUploadTest.anyFileUploardTest.executor": "Run",
+    "TestNG.DownloadUploadTest.executor": "Run",
+    "TestNG.DownloadUploadTest.fileUploadTest.executor": "Run",
+    "TestNG.DropDownTest.executor": "Run",
+    "TestNG.FrameTest.atTest.executor": "Run",
+    "TestNG.FrameTest.executor": "Run",
+    "TestNG.LinkExample.executor": "Run",
+    "TestNG.LinkExample.linkExampleTest.executor": "Run",
+    "TestNG.OpenGoogleTest.executor": "Run",
+    "TestNG.TableSearchTest.executor": "Run",
+    "TestNG.TextBox.TextTest.executor": "Run",
+    "TestNG.TextBox.executor": "Run",
+    "TestNG.WaitTest.executor": "Run",
+    "TestNG.WebTableTest.executor": "Run",
+    "TestNG.WindowsTest.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/React",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.WebTableTest">
+}]]></component>
+  <component name="RunManager" selected="TestNG.ActionKeyBoardOperationExampleTest">
     <configuration name="FrameTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FrameTest" />
       <module name="SeleniumSeries" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActionKeyBoardOperationExampleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ActionKeyBoardOperationExampleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,18 +117,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FrameTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FrameTest.atTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumSeries" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FrameTest" />
-      <option name="METHOD_NAME" value="atTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ActionKeyBoardOperationExampleTest" />
         <item itemvalue="TestNG.WebTableTest" />
         <item itemvalue="TestNG.WindowsTest" />
         <item itemvalue="Application.FrameTest" />
         <item itemvalue="TestNG.FrameTest" />
-        <item itemvalue="TestNG.FrameTest.atTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +206,8 @@
       <workItem from="1746346809614" duration="2566000" />
       <workItem from="1746349425343" duration="2700000" />
       <workItem from="1746352193759" duration="146000" />
+      <workItem from="1746352422454" duration="247000" />
+      <workItem from="1746352898115" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -310,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746352042432</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="New WebTable Testing&amp; Window Test">
+      <option name="closed" value="true" />
+      <created>1746352605727</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746352605727</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +339,7 @@
     <MESSAGE value="Wait Test" />
     <MESSAGE value="Download &amp; Upload Test" />
     <MESSAGE value="Alert &amp; Frame Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alert &amp; Frame Test" />
+    <MESSAGE value="New WebTable Testing&amp; Window Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="New WebTable Testing&amp; Window Test" />
   </component>
 </project>
