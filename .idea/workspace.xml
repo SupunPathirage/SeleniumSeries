@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="Button Test try" />
+    <list default="true" id="0dc5dab7-3818-4fbc-92e3-81e7ff762f24" name="Changes" comment="DropDown Test try">
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheckBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DropDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DropDownTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +59,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;TestNG.ButtonTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.CheckBoxTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DropDownTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LinkExample.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.LinkExample.linkExampleTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.OpenGoogleTest.executor&quot;: &quot;Run&quot;,
@@ -86,32 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CheckBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CheckBoxTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DropDownTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumSeries" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DropDownTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkExample" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumSeries" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinkExample" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OpenGoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumSeries" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="OpenGoogleTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -130,13 +125,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumSeries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.DropDownTest" />
+        <item itemvalue="TestNG.CheckBoxTest" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.ButtonTest" />
         <item itemvalue="TestNG.TextBox" />
-        <item itemvalue="TestNG.OpenGoogleTest" />
-        <item itemvalue="TestNG.LinkExample" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +180,12 @@
       <workItem from="1746234369021" duration="20813000" />
       <workItem from="1746257877984" duration="474000" />
       <workItem from="1746258377942" duration="6878000" />
+      <workItem from="1746265513174" duration="1072000" />
+      <workItem from="1746282473942" duration="332000" />
+      <workItem from="1746303940814" duration="4916000" />
+      <workItem from="1746310040036" duration="92000" />
+      <workItem from="1746310162473" duration="3718000" />
+      <workItem from="1746328054626" duration="7660000" />
     </task>
     <task id="LOCAL-00001" summary="OpenChrome Step">
       <option name="closed" value="true" />
@@ -240,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746265381679</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DropDown Test try">
+      <option name="closed" value="true" />
+      <created>1746266548536</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746266548536</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +272,7 @@
     <MESSAGE value="Working with TextBox" />
     <MESSAGE value="TextBox Complete" />
     <MESSAGE value="Button Test try" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button Test try" />
+    <MESSAGE value="DropDown Test try" />
+    <option name="LAST_COMMIT_MESSAGE" value="DropDown Test try" />
   </component>
 </project>
